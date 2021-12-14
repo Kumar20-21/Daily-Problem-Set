@@ -1,3 +1,4 @@
+//Counting Sort Algorithm
 //Solution with O(n) time complexity, requiring only two passes.
 
 class Solution {
@@ -29,5 +30,42 @@ public:
             i++;
             arr[2]--;
         }
+    }
+};
+
+
+/*
+Solution 2: Dutch National Flag Algorithm
+i.e. 3-pointer Algoirthm
+Requires No extra space (except 3 pointer memory), and only one pass.
+*/
+
+class Solution {
+public:
+    void sortColors(vector<int>& nums) {
+        int lo = 0;
+        int mid = 0; 
+        int hi = nums.size() - 1;
+
+        while (mid <= hi) { 
+            switch (nums[mid]) { 
+
+            // If the element is 0 
+            case 0: 
+                swap(nums[lo++], nums[mid++]); 
+                break; 
+
+            // If the element is 1 . 
+            case 1: 
+                mid++; 
+                break; 
+
+            // If the element is 2 
+            case 2: 
+                swap(nums[mid], nums[hi--]); 
+                break; 
+            }
+        }
+         
     }
 };
