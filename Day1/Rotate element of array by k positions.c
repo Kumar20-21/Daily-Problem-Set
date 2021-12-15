@@ -55,7 +55,7 @@ int main()
 /*
 
 Method 2:
-Juggling Method
+Juggling Method: Use of Modular arithmetic
 Assumption: d < n
 Time complexity: O(n)
 Auxiliary space: O(1)
