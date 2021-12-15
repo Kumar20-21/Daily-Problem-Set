@@ -3,7 +3,16 @@
 3. Total number of diagonals in a nxn matrix = 2(2n-1)
 4. Equation of Main diagonal and its parallel diagonals is given by: |x-y|<=n-1
 5. Equation of Off diagonal and its parallel diagonals is given by: 2<=x+y<=2n
-6. Rotation of a matrix by 90 clockwise is equivalent to transpose of a matrix and then interchaning i th column with (n-i) th column such that i<=(n-i).
+6. Rotation of a matrix by 90 clockwise:
+    Method 1:
+    Transpose the matrix and then interchaning i th column with (n-i) th column such that i<=(n-i).
+    Method 2:
+    Interchange i th row with (n-i) th row such that i <=(n-i) and then take a transpose of the matrix.
+7.  Rotation of a matrix by 90 anti-clockwise:
+    Method 1:
+    Transpose the matrix and then interchaning i th row with (n-i) th row such that i<=(n-i).
+    Method 2:
+    Interchange i th column with (n-i) th column such that i <=(n-i) and then take a transpose of the matrix.
 
 
-7. A Dictionary order first increases and then decreases.
+8. A Dictionary order first increases and then decreases.
