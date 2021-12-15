@@ -3,3 +3,6 @@
 3. Total number of diagonals in a nxn matrix = 2(2n-1)
 4. Equation of Main diagonal and its parallel diagonals is given by: |x-y|<=n-1
 5. Equation of Off diagonal and its parallel diagonals is given by: 2<=x+y<=2n
+
+
+6. A Dictionary order first increases and then decreases.
