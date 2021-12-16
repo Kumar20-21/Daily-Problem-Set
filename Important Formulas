@@ -1,4 +1,4 @@
-1. Number of elements in the i th layer of a mxn matrix =2*(m-i)+2*(n-i)
+1. Number of elements in the i th layer of a mxn matrix =2*(m+1-2*i)+2*(n+1-2*i)
 2. Number of Layers in a mxn matrix = ceil(min(m/2,n/2))
 3. Total number of diagonals in a nxn matrix = 2(2n-1)
 4. Equation of Main diagonal and its parallel diagonals is given by: |x-y|<=n-1
