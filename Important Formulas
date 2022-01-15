@@ -16,3 +16,11 @@
 
 
 8. A Dictionary order first increases and then decreases.
+
+9. For simple graphs, checking whether the given sequence is a degree sequence of a graph or not:
+    a) Count the number of vertices, say n.
+    b) Ensure that there does not exists a number greater than n-1 (Maximum degree argument).
+    c) Sum all the numbers in the sequence and ensure that the sum is even (Handshaking Lemma).
+    d) Check that at least two integers in the given sequence are same (Pigeon Hole principle).
+    e) If the sequence passes all the above tests, then use Erdos-Gallai Theorem.
+    f) If the sequence passes Erdos-Gallai Theorem, then use Havel-Hakimi algorithm to construct the graph.
